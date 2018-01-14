@@ -1,0 +1,116 @@
+h1, h2, h3, h4, h5, h6, p, a
+{
+  color: #292E52 !important;
+  font-family: Ubuntu;
+}
+.fff
+{
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+.conttt
+{
+  background-image: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.contlogo
+{
+  width: 100%;
+  background: #FFCC29;
+  padding-top: 15px;
+
+}
+.tagblog
+{
+  color: #292E52;
+  padding-top: 10px;
+  font-family: Sedgwick Ave Display;
+}
+.primercont
+{
+  padding: 5px 5px 5px 5px;
+  border: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+  display: inline-block;
+}
+.filas
+{
+  padding: 5px 5px 5px 5px;
+}
+.filasss
+{
+  background: transparent !important;
+}
+.filasss:hover
+{
+  background: white !important;
+}
+.cardff
+{
+  background: #0098DA;
+  border-radius: 10px 0 10px 0;
+}
+.favcard
+{
+  display: inline-block;
+  background: transparent;
+  border: none;
+}
+.favcard:hover
+{
+  background: white;
+}
+.imgcard
+{
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+.imgcard:hover
+{
+  filter: blur(2px);
+}
+.menugastro
+{
+  display: flow-root !important;
+}
+.histcard
+{
+  background: #FFCC29;
+  padding: 5px 5px 5px 5px;
+  border: 2px 2px 2px 2px;
+  margin: 2px 2px 2px 2px;
+  text-align: center;
+}
+.histcard:hover
+{
+  border-radius: 15px;
+  opacity: 0.9;
+}
+.menugastro:hover
+{
+  color: #FFCC29 !important;
+}
+
+
+@media (max-width: 800px)
+{
+  body
+  {
+    background-size: ;
+    background-position: left;
+  }
+  .menugastro
+  {
+    background-color: white !important;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+
+  .contlogo
+  {
+    text-align: center;
+  }
+}
